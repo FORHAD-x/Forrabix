@@ -73,7 +73,7 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link to="/" className="inline-block mb-3">
-              <img src="/Olive.png" alt="FORRABIX" className="h-5 sm:h-8" />
+              <img src="/white.png" alt="FORRABIX" className="h-5 sm:h-8" />
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-5">
               Aesthetic drop shoulder for modern people. Minimal, raw, and always intentional. Designed for those who move different.
