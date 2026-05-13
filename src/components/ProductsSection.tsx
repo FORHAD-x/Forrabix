@@ -2,6 +2,8 @@ import { useState, useMemo } from 'react';
 import { products, Category } from '../data/products';
 import { ProductCard } from './ProductCard';
 
+
+
 type SortOption = 'Default' | 'Price: Low to High' | 'Price: High to Low' | 'Name A-Z';
 
 const categories: (Category | 'ALL')[] = ['ALL', 'DROP SHOULDER', 'OVERSIZED TEE', 'HOODIE', 'LONGSLEEVE'];
@@ -17,6 +19,7 @@ const categoryLabels: Record<Category | 'ALL', string> = {
 };
 
 export function ProductsSection() {
+  
   const [activeCategory, setActiveCategory] = useState<Category | 'ALL'>('ALL');
   const [activePriceFilter, setActivePriceFilter] = useState<PriceFilter>('ALL');
   const [sort, setSort] = useState<SortOption>('Default');
